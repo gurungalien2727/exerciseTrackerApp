@@ -59,6 +59,7 @@ export default class ExercisesList extends Component {
   }
 
   exerciseList() {
+    console.log(this.state.exercises)
     return this.state.exercises.map((currentexercise) => {
       return (
         <Exercise

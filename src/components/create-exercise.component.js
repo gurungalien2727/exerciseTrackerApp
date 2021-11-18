@@ -75,7 +75,7 @@ export default class CreateExercise extends Component {
     };
 
     console.log(exercise);
-
+  
     //sending user data to the backend
     axios
       .post("http://localhost:4000/exercises/add", exercise)
