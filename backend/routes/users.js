@@ -2,7 +2,6 @@ const router = require("express").Router();
 let User = require("../models/user.model");
 
 router.route("/").get((req, res) => {
-  console.log('users route called')
   User.find()
     .then((userss) => res.json(userss))
     .catch((err) => res.status(400).json("Error" + err));
