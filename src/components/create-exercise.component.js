@@ -88,7 +88,7 @@ export default class CreateExercise extends Component {
     return (
       <div>
         <h3>Create New Exercise</h3>
-        <form onSubmit={this.onSubmit}>
+        <form onSubmit={this.onsubmit}>
           <div className="form-group">
             <label>Username: </label>
             <select
